@@ -1,5 +1,5 @@
 html{
-    background: #e1e8ec;
+    background: #ffffff;
 }
 
 body{
@@ -10,6 +10,7 @@ body{
    margin: 0%;
    margin-right: 10%;
     background: #ffffff;
+   
 
 }
 
@@ -76,6 +77,10 @@ font-weight: bold;
     
 }
 
-
+header{
+    padding-top: 200px;
+    margin-left:10px; 
+    
+}
 
 
