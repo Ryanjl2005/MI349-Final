@@ -107,3 +107,12 @@ header{
     flex-direction: row;
     padding-left: 3em;
 }
+
+.fill{
+    text-align: center;
+    padding-top: 20%;
+}
+.aboutImg{
+   height:250;
+   width:150;
+}
