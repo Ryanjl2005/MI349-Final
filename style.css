@@ -112,7 +112,8 @@ header{
     text-align: center;
     padding-top: 20%;
 }
-.aboutImg{
-   height:250;
-   width:150;
+.aboutPicture{
+    height: 500px;
+    width:400px;
+
 }
