@@ -62,7 +62,7 @@ font-weight: bold;
 
 
 .navBar nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     margin: 0;
     padding: 0;
 }
@@ -76,44 +76,68 @@ font-weight: bold;
     
 }
 
-header{
-    padding-top: 125px;
-    margin-left:10px; 
-    
-}
 .gamePic{
     display: flex;
-
+    
+    justify-content: center; 
+    flex-wrap: wrap; 
     flex-direction: row;
     padding-left: 5em;
+    padding:1em;
 }
 .homeImg{
     width:350px;
     height:350px;
-    
+    flex: 1 1 300px; 
     padding-right: 5em;
 }
 .codeImg{
-    width:400px;
+    width:450px;
     height:150px;
-    
+    flex: 1 1 300px; 
     padding-right: 3em;
    
 }
 
 .codePic{
     display: flex;
-
+    flex-wrap: wrap; 
+    justify-content: center; 
     flex-direction: row;
-    padding-left: 3em;
+    padding-left: 5em;
+    padding:1em;
 }
 
 .fill{
     text-align: center;
     padding-top: 20%;
+   
 }
 .aboutPicture{
     height: 500px;
     width:400px;
 
 }
+
+header {
+    padding-top: 125px;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 900px) {
+    
+    .navBar {
+        position: static;
+        width: 100%; 
+        height: auto;
+        flex-direction:column 
+    }
+
+    .navBar nav ul a {
+        padding: 5px 10px;
+    }
+
+}
+
